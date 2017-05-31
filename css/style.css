@@ -1,0 +1,104 @@
+/*
+fonts 
+
+font-family: 'Quicksand', sans-serif;
+font-family: 'News Cycle', sans-serif;
+font-family: 'Poiret One', cursive;
+
+colors
+
+Dark Green #228b22
+Bun #F19A2B
+Lettuce #85BA42
+Tomato #E5512E
+Cheese #F6CD30
+Meat #7F441C
+
+*/
+
+.clearfix:before,
+.clearfix:after {
+	content:" ";display:table;
+}
+
+.clearfix:after {
+	clear:both;
+}
+
+
+html {
+	background-color:whitesmoke;
+}
+
+header {
+	font-family:'Poiret One', cursive;
+	font-size:40px;
+	font-weight:lighter;
+	margin-top:0;
+}
+
+body {
+	width:800px;
+	justify-content: center;
+	margin:auto;
+}
+
+ul {
+	font-family:'Poiret One', cursive;
+	height:70px;
+	width:100%;
+	font-size:17px;
+	list-style:none;
+	column-count: 5;
+	column-width:20%;
+	text-align: center;
+	margin-top:40px;
+	background-color:black;
+	margin:0;
+	padding-left: 0;
+}
+
+li {
+	padding-top:30px;
+	padding-right:10px;
+}
+
+li a {
+	text-decoration:none;
+	color:white;
+}
+
+body {
+	width:100%;
+	margin:0;
+}
+
+.this-page {
+	border-bottom:none;
+	border-top-right-radius:10px;
+	border-top-left-radius:10px;
+	color:white;
+}
+
+.headliner {
+	padding-top:50px;
+	padding-bottom:50px;
+	font-size:70px;
+	font-family: 'Poiret One', cursive;
+	text-align:center;
+}
+
+.profiles {
+	margin:auto;
+	width:80%;
+	display:inline-block;
+}
+
+.profiles img {
+	width:150px;
+}
+
+.profile {
+	float:left;
+	text-align:center;
+}
